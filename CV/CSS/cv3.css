@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #000;
+    font-family: sans-serif;
+}
+.corps{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0%);
+    background-color: #fff;
+}
+/* Block de gauche */
+.corps .blog-left{
+    width: 35%;
+    height: 100%;
+    background: linear-gradient(180deg, #ad0ca5d2 15%, #5d54b1 40%, #021d46 100% );
+    color: white;
+    padding: 6% 0% 7% 6%;
+}
+.corps .blog-left .profil-img{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    width: 600px;
+    height: 130px;
+}
+.corps .blog-left .profil-img img{
+    width: 120px;
+    height: 100%;
+}
+.corps .blog-left .profil-img .name{
+    padding: 20px;
+}
+.corps .blog-left .profil-img .name h2{
+    color: #ad0ca5d2;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.corps .blog-left .profil-img .name span{
+    color: #021d46;
+    border-bottom: 2px solid #ad0ca5d2;
+}
+.corps .blog-left .profil-img .name p{
+    color: #000;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+
+
+.blog-left .title{
+
+    margin: 15% 0 10px 0;
+    text-transform: capitalize;
+    border-bottom: 3px solid white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.corps .blog-left  li{
+    text-align: justify ;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.corps .blog-left .info-perso p, .corps .about-me p{
+    font-size: 14px;
+    line-height: 22px;
+}
+/* block droit */
+.corps .blog-right{
+    padding: 40px;
+} 
+.blog-right .title{
+    font-size: 16px;
+    color: #021d46;
+}
+.blog-right .exp-pro{
+    margin-top: 170px;
+}
+.blog-right .exp-details {
+    margin-top: 20px;
+}
+.blog-right .exp-details .exp-details-1{
+    display: flex;
+    margin-top: 10px;
+}
+.blog-right .exp-details .exp-details-1 .ligne .ligne-1{
+    height: 100%;
+    width: 2px;
+    margin-left: 40%;
+    background-color: #021d46;
+}
+.blog-right .exp-details .exp-details-1 .ligne .cicle{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 3px solid #ad0ca5d2;
+}
+.blog-right .exp-details .exp-details-1 .annee{
+    padding-right: 10px;
+}
+.blog-right .exp-details .exp-details-1 .an-3{
+    padding-right: 5px;
+    margin-left: -14px;
+    text-indent: 18px;
+}
+.blog-right .exp-details .exp-details-1 .text{
+    padding-left: 20px;
+    font-size: 14px;
+}
+.blog-right .exp-details .exp-details-1 .text span{
+    font-size: 12px;
+}
+.blog-right .exp-details .exp-details-1 .text h3{
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: #021d46;
+}
+.blog-right .education .title{
+    margin-top: 50px;
+    text-transform: uppercase;
+}

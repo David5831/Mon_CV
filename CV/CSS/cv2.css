@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #000;
+    font-family: sans-serif;
+}
+.corps{
+    width: 65%;
+    height: 100%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0%);
+    background-color: #fff;
+    overflow: hidden;
+
+}
+.corps .block-haut{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2% 0%;
+}
+.corps .block-haut .name h2{
+    font-size: 30px;
+    margin-bottom: 5px;
+    color: #6e8974;
+}
+.corps .block-haut .name p{
+    font-size: 25px;
+    color: #6e8974;
+    font-style: italic;
+}
+.corps .block-haut .profil-img{
+    width: 150px;
+    height: 180px;
+}
+.corps .block-haut .profil-img img{
+    width: 100%;
+    height: 100%;
+}
+.corps .block-haut  .info-perso{
+    font-size: 18px;
+    margin-bottom: 10%;
+}
+.corps .block-haut  .info-perso p{
+   margin: 5px 0;
+}
+
+/* Block du bas */
+.corps .block-bas{
+    width: 78%;
+    height: auto;
+    background-color: #e6f0e8;
+    padding: 5% 12%;
+}
+.corps .block-bas .profile p, .exp-pro p{
+    text-align: justify;
+}
+
+.title{
+
+    margin: 20px 0;
+}
+.title span{
+
+    text-transform: capitalize;
+    color: #6e8974;
+    border-bottom: 3px solid #6e8974;
+    font-size: 20px;
+    font-weight: bold;
+}
+.corps .block-bas .skills .skills-details{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.corps .block-bas .skills p{
+    width: 42%;
+    margin-top: 10px;
+}
+
+.corps .language .lang-align-1{
+    display: flex;
+    justify-content: space-between;
+}
+.corps .language .lang{
+    display: flex;
+    align-items: center;
+    
+}
+.corps .language .lang .active{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #647c6a;
+    margin-left: 10px;
+}
+.corps .language .lang .no{
+    background-color: #d2ddd5;
+}
+.corps .language .lang h4{
+    width: 90%;
+}
+
+.corps .language .lang .point{
+    display: flex;
+    margin-left: 20px;
+    
+}
+.corps .strenghts p{
+    margin-bottom: 10px;
+}
+
+.corps .block-bas li{
+    text-align: justify ;
+    margin-left: 15px;
+}
+.corps .block-bas .exp-det-2{
+    margin-top: 20px;
+}
+.corps .block-bas .text-right{
+    margin-left: 100px;
+}
